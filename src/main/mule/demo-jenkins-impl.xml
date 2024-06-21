@@ -10,6 +10,6 @@ http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/htt
 	<flow name="demo-jenkins-implFlow" doc:id="6155b281-b2f7-4f7c-9532-2d269e19be81" >
 		<http:listener doc:name="Listener" doc:id="f41aba04-2589-47c3-a1e9-de074182bca8" config-ref="HTTP_Listener_config" path="/demo"/>
 		<logger level="INFO" doc:name="Logger" doc:id="3168757a-a323-454c-ba3d-b0fd1e1bc998" message="Request is recevied"/>
-		<set-payload value='#["success"]' doc:name="Set Payload" doc:id="a01765e0-9850-4391-866b-f7b21c14ba21" />
+		<set-payload value='#["Success"]' doc:name="Set Payload" doc:id="a01765e0-9850-4391-866b-f7b21c14ba21" />
 	</flow>
 </mule>
